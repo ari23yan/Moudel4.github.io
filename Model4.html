@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The includes() Method</h2>
+
+<p>includes() returns true if a string contains a specified string.</p>
+
+<p>Find "world":</p>
+
+<p id="demo"></p>
+
+<p>includes() is not supported in Internet Explorer 11 (or earlier).</p>
+
+<script>
+
+let names = ["John", "Chris", "Harry","Jamal"];
+
+for(let index = 0; index < names.length; index++)
+{
+    let letter = names[index].charAt(0);
+    if(letter === 'J')
+    {
+    console.log( "hello " + names[index]);
+    }
+else 
+{
+    console.log( "ByBy " + names[index]);
+}
+}
+    
+
+</script>
+
+</body>
+</html>
